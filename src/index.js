@@ -54,8 +54,8 @@ export const hello = {
 }
 
 export const visitor = {
-  en_us: 'visitor',
-  pt_br: 'visitante'
+  en_us: 'Visitor',
+  pt_br: 'Visitante'
 }
 
 export const signInWith = {
@@ -69,13 +69,13 @@ export const signUpWith = {
 }
 
 export const another = {
-  en_us: 'another',
-  pt_br: 'outro'
+  en_us: 'Another',
+  pt_br: 'Outro'
 }
 
 export const email = {
-  en_us: 'email',
-  pt_br: 'e-mail'
+  en_us: 'Email',
+  pt_br: 'E-mail'
 }
 
 export const logout = {
@@ -119,8 +119,8 @@ export const noResultsFor = {
 }
 
 export const totalResultsFor = {
-  en_us: 'products found for',
-  pt_br: 'produtos encontrados para'
+  en_us: 'Products found for',
+  pt_br: 'Produtos encontrados para'
 }
 
 export const seeAll = {
@@ -129,13 +129,13 @@ export const seeAll = {
 }
 
 export const from = {
-  en_us: 'from',
-  pt_br: 'de'
+  en_us: 'From',
+  pt_br: 'De'
 }
 
 export const to = {
-  en_us: 'to',
-  pt_br: 'por'
+  en_us: 'To',
+  pt_br: 'Por'
 }
 
 export const unavailable = {
@@ -154,8 +154,8 @@ export const buy = {
 }
 
 export const upTo = {
-  en_us: 'up to',
-  pt_br: 'até'
+  en_us: 'Up to',
+  pt_br: 'Até'
 }
 
 export const zip = {
@@ -169,26 +169,26 @@ export const calculateShipping = {
 }
 
 export const days = {
-  en_us: 'days',
-  pt_br: 'dias'
+  en_us: 'Days',
+  pt_br: 'Dias'
 }
 
 export const workingDays = {
-  en_us: 'working days',
-  pt_br: 'dias úteis'
+  en_us: 'Working days',
+  pt_br: 'Dias úteis'
 }
 
 export const freeShipping = {
-  en_us: 'free shipping',
-  pt_br: 'frete grátis'
+  en_us: 'Free shipping',
+  pt_br: 'Frete grátis'
 }
 
 export const interestFree = {
-  en_us: 'interest free',
-  pt_br: 'sem juros'
+  en_us: 'Interest free',
+  pt_br: 'Sem juros'
 }
 
 export const discountOf = {
-  en_us: 'discount of',
-  pt_br: 'desconto de'
+  en_us: 'Discount of',
+  pt_br: 'Desconto de'
 }
