@@ -1,2 +1,3 @@
-# ecomplus-i18n
-Dictionary for E-Com Plus apps and storefront
+# i18n
+
+Tree shakable dictionary for e-commerce JS apps
