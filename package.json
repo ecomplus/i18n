@@ -2,7 +2,7 @@
   "name": "@ecomplus/i18n",
   "version": "0.1.0",
   "description": "Tree shakable dictionary for e-commerce JS apps",
-  "main": "src/index.js",
+  "main": "dist/i18n.min.js",
   "module": "src/index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack",
