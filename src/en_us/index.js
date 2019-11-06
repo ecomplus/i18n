@@ -216,6 +216,7 @@ export const WeUseYourDataTo = 'We will use your data safely and responsibly to'
 export const WillReceiveMsg = 'You\'ll receive the products in up to'
 export const WorkingDays = 'Working days'
 export const ZipCode = 'Zip Code'
+
 export const _FinancialStatus = {
   pending: 'Pending payment',
   under_analysis: 'Payment under analysis',
@@ -229,11 +230,13 @@ export const _FinancialStatus = {
   voided: 'Payment voided',
   unknown: 'Unknown payment status'
 }
+
 export const _OrderStatus = {
   open: 'Open order',
   closed: 'Finalized order',
   cancelled: 'Cancelled'
 }
+
 export const _FulfillmentStatus = {
   ready_for_shipping: 'Ready for shipping',
   shipped: 'Shipped',
