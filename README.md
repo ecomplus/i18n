@@ -1,4 +1,4 @@
-# [WIP] i18n
+# i18n
 
 Tree shakable dictionary for e-commerce JS apps
 
@@ -8,9 +8,14 @@ Tree shakable dictionary for e-commerce JS apps
 npm i --save @ecomplus/i18n
 ```
 
+### Usage
+
 ```js
-import { hello, visitor } from '@ecomplus/i18n'
-console.log(`${hello.pt_br} ${visitor.pt_br}`)
+import { Hello, Visitor } from '@ecomplus/i18n'
+console.log(`${Hello.en_us} ${Visitor.pt_br}`)
+// Hello Visitor
+console.log(`${Hello.pt_br} ${Visitor.pt_br}`)
+// Olá Visitante
 ```
 
 We recommend using it with
@@ -18,8 +23,29 @@ We recommend using it with
 
 ```js
 import { i18n } from '@ecomplus/utils'
-import { hello, visitor } from '@ecomplus/i18n'
-console.log(`${i18n(hello)} ${i18n(visitor)}`)
+import { Hello, Visitor } from '@ecomplus/i18n'
+console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+// Hello Visitor
+```
+
+Change current language with `ecomUtils._config`:
+
+```js
+import { _config, i18n } from '@ecomplus/utils'
+import { Hello, Visitor } from '@ecomplus/i18n'
+_config.set('lang', 'pt_br')
+console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+// Olá Visitante
+```
+
+#### Import entire dictionary object
+
+It'll output large size bundle, _not good for frontend apps_.
+
+```js
+import dictionary from '@ecomplus/i18n'
+console.log(`${dictionary.Hello.en_us} ${dictionary.Visitor.en_us}`)
+// Hello Visitor
 ```
 
 ### Webpack alias
@@ -34,7 +60,7 @@ module.exports = {
   //...
   resolve: {
     alias: {
-      '@ecomplus/i18n$': `@ecomplus/i18n/src/${lang}/`
+      '@ecomplus/i18n$': `@ecomplus/i18n/dist/${lang}/`
     }
   }
 }
@@ -43,8 +69,9 @@ module.exports = {
 **By this way you'll import only strings instead of objects**:
 
 ```js
-import { hello, visitor } from '@ecomplus/i18n'
-console.log(`${hello} ${visitor}`)
+import { Hello, Visitor } from '@ecomplus/i18n'
+console.log(`${Hello} ${Visitor}`)
+// Hello Visitor
 ```
 
 You can still use
@@ -53,6 +80,7 @@ the same way:
 
 ```js
 import { i18n } from '@ecomplus/utils'
-import { hello, visitor } from '@ecomplus/i18n'
-console.log(`${i18n(hello)} ${i18n(visitor)}`)
+import { Hello, Visitor } from '@ecomplus/i18n'
+console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+// Hello Visitor
 ```
