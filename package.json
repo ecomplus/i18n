@@ -6,8 +6,8 @@
   "module": "src/index.js",
   "scripts": {
     "generate": "node ./scripts/generate-named-exports",
-    "build": "npm run generate & NODE_ENV=production webpack",
-    "release": "npm run build && standard-version"
+    "build": "npm run generate && NODE_ENV=production webpack",
+    "release": "rm -rf ./dist; npm run build && standard-version"
   },
   "repository": {
     "type": "git",
