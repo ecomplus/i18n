@@ -1,6 +1,6 @@
 # i18n
 
-[![npm version](https://img.shields.io/npm/v/@ecomplus/storefront-template.svg)](https://www.npmjs.org/@ecomplus/storefront-template)
+[![npm version](https://img.shields.io/npm/v/@ecomplus/storefront-template.svg)](https://www.npmjs.org/@ecomplus/i18n)
 [![license mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Tree shakable dictionary for e-commerce JS apps
