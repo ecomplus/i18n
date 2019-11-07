@@ -294,6 +294,7 @@ export const WillReceiveMsg = 'Você receberá os produtos em até'
 export const WorkingDays = 'Dias úteis'
 export const Year = 'Ano'
 export const ZipCode = 'CEP'
+
 export const _FinancialStatus = {
   pending: 'Aguardando pagamento',
   under_analysis: 'Pagamento em análise',
