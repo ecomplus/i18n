@@ -16,7 +16,7 @@ let newJsContent = ''
         }
         langsByWords[word].push(lang)
         newJsContent += `
-import ${word} as ${lang}${word} from './src/${lang}/'
+import { ${word} as ${lang}${word} } from './src/${lang}/'
 `
       })
   }
