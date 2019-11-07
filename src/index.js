@@ -3,9 +3,6 @@ import * as enUs from './en_us/'
 import * as ptBr from './pt_br/'
 export { enUs, ptBr }
 
-// named exports off all words in en-US (default language)
-export * from './en_us/'
-
 // default export dictionary object
 // all words and langs
 const dictionary = {}
@@ -20,3 +17,7 @@ for (const str in enUs) {
   }
 }
 export default dictionary
+
+// named exports of each word with multiple langs
+// __all.js file is AUTO GENERATED with `npm run generate` or `npm run build`
+export * from './../__all'
