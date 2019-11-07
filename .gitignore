@@ -1,3 +1,6 @@
+__all.js
+/dist
+
 # Logs
 logs
 *.log
