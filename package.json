@@ -1,12 +1,13 @@
 {
   "name": "@ecomplus/i18n",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tree shakable dictionary for e-commerce JS apps",
   "main": "dist/i18n.min.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
-    "release": "npm run build && standard-version"
+    "generate": "node ./scripts/generate-named-exports",
+    "build": "npm run generate && NODE_ENV=production webpack",
+    "release": "rm -rf ./dist; npm run build && standard-version"
   },
   "repository": {
     "type": "git",
@@ -26,13 +27,16 @@
   },
   "homepage": "https://github.com/ecomclub/i18n#readme",
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "husky": "^3.0.5",
+    "babel-loader": "^8.0.6",
+    "husky": "^3.0.9",
     "standard": "^14.3.1",
     "standard-version": "^7.0.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "husky": {
     "hooks": {
