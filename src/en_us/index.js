@@ -547,10 +547,10 @@ export const _StateRegister = {
 }
 
 export const _PhoneType = {
-  home: 'home',
-  personal: 'personal',
-  work: 'word',
-  other: 'other'
+  home: 'Home',
+  personal: 'Personal',
+  work: 'Work',
+  other: 'Other'
 }
 
 export const _RegistryType = {
