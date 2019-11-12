@@ -3,7 +3,11 @@
 [![npm version](https://img.shields.io/npm/v/@ecomplus/i18n.svg)](https://www.npmjs.org/@ecomplus/i18n)
 [![license mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+:brazil: :us:
+
 Tree shakable dictionary for e-commerce JS apps
+
+> `i18n` ~ `i19` ~ Internationalization
 
 ## Getting started
 
@@ -14,10 +18,10 @@ npm i --save @ecomplus/i18n
 ### Usage
 
 ```js
-import { Hello, Visitor } from '@ecomplus/i18n'
-console.log(`${Hello.en_us} ${Visitor.pt_br}`)
+import { i19hello, i19visitor } from '@ecomplus/i18n'
+console.log(`${i19hello.en_us} ${i19visitor.pt_br}`)
 // Hello Visitor
-console.log(`${Hello.pt_br} ${Visitor.pt_br}`)
+console.log(`${i19hello.pt_br} ${i19visitor.pt_br}`)
 // Olá Visitante
 ```
 
@@ -26,8 +30,8 @@ We recommend using it with
 
 ```js
 import { i18n } from '@ecomplus/utils'
-import { Hello, Visitor } from '@ecomplus/i18n'
-console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+import { i19hello, i19visitor } from '@ecomplus/i18n'
+console.log(`${i18n(i19hello)} ${i18n(i19visitor)}`)
 // Hello Visitor
 ```
 
@@ -35,9 +39,9 @@ Change current language with `ecomUtils._config`:
 
 ```js
 import { _config, i18n } from '@ecomplus/utils'
-import { Hello, Visitor } from '@ecomplus/i18n'
+import { i19hello, i19visitor } from '@ecomplus/i18n'
 _config.set('lang', 'pt_br')
-console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+console.log(`${i18n(i19hello)} ${i18n(i19visitor)}`)
 // Olá Visitante
 ```
 
@@ -47,7 +51,7 @@ It'll output large size bundle, _not good for frontend apps_.
 
 ```js
 import dictionary from '@ecomplus/i18n'
-console.log(`${dictionary.Hello.en_us} ${dictionary.Visitor.en_us}`)
+console.log(`${dictionary.i19hello.en_us} ${dictionary.i19visitor.en_us}`)
 // Hello Visitor
 ```
 
@@ -72,8 +76,8 @@ module.exports = {
 **By this way you'll import only strings instead of objects**:
 
 ```js
-import { Hello, Visitor } from '@ecomplus/i18n'
-console.log(`${Hello} ${Visitor}`)
+import { i19hello, i19visitor } from '@ecomplus/i18n'
+console.log(`${i19hello} ${i19visitor}`)
 // Hello Visitor
 ```
 
@@ -83,7 +87,7 @@ the same way:
 
 ```js
 import { i18n } from '@ecomplus/utils'
-import { Hello, Visitor } from '@ecomplus/i18n'
-console.log(`${i18n(Hello)} ${i18n(Visitor)}`)
+import { i19hello, i19visitor } from '@ecomplus/i18n'
+console.log(`${i18n(i19hello)} ${i18n(i19visitor)}`)
 // Hello Visitor
 ```
