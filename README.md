@@ -91,3 +91,17 @@ import { i19hello, i19visitor } from '@ecomplus/i18n'
 console.log(`${i18n(i19hello)} ${i18n(i19visitor)}`)
 // Hello Visitor
 ```
+
+## Conventions
+
+1. String values always with **uppercased first letter** (eg.: `'Hello'`);
+2. Variable (`const`) names always in English;
+3. **Prefix `i19`** for all variable names;
+4. String variables must be _camelCased_ (eg.: `i19helloWorld`);
+5. Object (enums) variables must be _PascalCased_ (eg.: `i19OrderStatus`);
+6. **All language options must have same variables**;
+
+### Code style
+
+7. Exported constants must be alphabetically ordered;
+8. Additional line break before objects (not for strings);
