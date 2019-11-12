@@ -469,6 +469,7 @@ export const _FinancialStatus = {
   voided: 'Payment voided',
   unknown: 'Unknown payment status'
 }
+
 export const _FinancialStatusMsg = {
   pending: 'Your order have',
   under_analysis: 'Your order have',
@@ -482,11 +483,13 @@ export const _FinancialStatusMsg = {
   voided: 'Your order have',
   unknown: 'Your order have'
 }
+
 export const _OrderStatus = {
   open: 'Open order',
   closed: 'Finalized order',
   cancelled: 'Cancelled'
 }
+
 export const _FulfillmentStatus = {
   ready_for_shipping: 'Ready for shipping',
   shipped: 'Shipped',
@@ -500,6 +503,7 @@ export const _FulfillmentStatus = {
   received_for_exchange: 'Received for exchange',
   returned: 'Returned'
 }
+
 export const _FulfillmentStatusMsg = {
   ready_for_shipping: 'Your order is',
   shipped: 'Your order was',
@@ -513,41 +517,48 @@ export const _FulfillmentStatusMsg = {
   received_for_exchange: 'Your order was',
   returned: 'Your order was'
 }
-export const _modules = {
-  pageLoaded: 'Page loaded',
-  termSearched: 'Term searched',
-  cartConfirmed: 'Cart confirmed',
-  calculateShipping: 'Calculate shipping',
-  listPayments: 'List payments',
-  applyDiscount: 'Apply discount',
-  createTransaction: 'Create transaction',
-  checkoutDone: 'Checkout done'
+
+export const _Modules = {
+  page_loaded: 'Page loaded',
+  term_searched: 'Term searched',
+  cart_confirmed: 'Cart confirmed',
+  calculate_shipping: 'Calculate shipping',
+  list_payments: 'List payments',
+  apply_discount: 'Apply discount',
+  create_transaction: 'Create transaction',
+  checkout_done: 'Checkout done'
 }
-export const _discountApplyAt = {
+
+export const _DiscountApplyAt = {
   total: 'Total',
   subtotal: 'Subtotal',
   freight: 'Freight'
 }
-export const _discountType = {
+
+export const _DiscountType = {
   percentage: 'Percentage',
   fixed: 'Fixed'
 }
-export const _stateRegister = {
+
+export const _StateRegister = {
   invited: 'invited',
   registered: 'registered',
   declined: 'declined'
 }
-export const _phoneType = {
+
+export const _PhoneType = {
   home: 'home',
   personal: 'personal',
   work: 'word',
   other: 'other'
 }
-export const _registryType = {
+
+export const _RegistryType = {
   p: 'Physical',
   j: 'Juridical'
 }
-export const _inscriptionType = {
+
+export const _InscriptionType = {
   state: 'State',
   municipal: 'Municipal'
 }

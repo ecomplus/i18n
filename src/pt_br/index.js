@@ -470,6 +470,7 @@ export const _FinancialStatus = {
   voided: 'Pagamento cancelado',
   unknown: 'Situação do pagamento desconhecida'
 }
+
 export const _FinancialStatusMsg = {
   pending: 'Seu pedido está',
   under_analysis: 'Seu pedido está com',
@@ -483,11 +484,13 @@ export const _FinancialStatusMsg = {
   voided: 'Seu pedido está com',
   unknown: 'Seu pedido está com'
 }
+
 export const _OrderStatus = {
   open: 'Pedido aberto',
   closed: 'Pedido finalizado',
   cancelled: 'Cancelado'
 }
+
 export const _FulfillmentStatus = {
   ready_for_shipping: 'Pronto para envio',
   shipped: 'Enviado',
@@ -514,41 +517,48 @@ export const _FulfillmentStatusMsg = {
   received_for_exchange: 'Seu pedido foi',
   returned: 'Seu pedido foi'
 }
-export const _modules = {
-  pageLoaded: 'Página carregada',
-  termSearched: 'Termo procurado',
-  cartConfirmed: 'Carrinho confirmado',
-  calculateShipping: 'Calcular frete',
-  listPayments: 'Listar formas de pagamento',
-  applyDiscount: 'Aplicar desconto',
-  createTransaction: 'Criar transação',
-  checkoutDone: 'Checkout finalizado'
+
+export const _Modules = {
+  page_loaded: 'Página carregada',
+  term_searched: 'Termo procurado',
+  cart_confirmed: 'Carrinho confirmado',
+  calculate_shipping: 'Calcular frete',
+  list_payments: 'Listar formas de pagamento',
+  apply_discount: 'Aplicar desconto',
+  create_transaction: 'Criar transação',
+  checkout_done: 'Checkout finalizado'
 }
-export const _discountApplyAt = {
+
+export const _DiscountApplyAt = {
   total: 'Total',
   subtotal: 'Subtotal',
   freight: 'Frete'
 }
-export const _discountType = {
+
+export const _DiscountType = {
   percentage: 'Percentual',
   fixed: 'Fixo'
 }
-export const _stateRegister = {
+
+export const _StateRegister = {
   invited: 'Convidado',
   registered: 'Registrado',
   declined: 'Recusado'
 }
-export const _phoneType = {
+
+export const _PhoneType = {
   home: 'Casa',
   personal: 'Pessoal',
   work: 'Trabalho',
   other: 'Outro'
 }
-export const _registryType = {
+
+export const _RegistryType = {
   p: 'Pessoa física',
   j: 'Pessoa jurídica'
 }
-export const _inscriptionType = {
+
+export const _InscriptionType = {
   state: 'Estadual',
   municipal: 'Municipal'
 }
