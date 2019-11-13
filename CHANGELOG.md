@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/ecomclub/i18n/compare/v0.1.2...v1.0.0) (2019-11-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **const-names:** all named exports changed
+
+### Features
+
+* new words ([0145529](https://github.com/ecomclub/i18n/commit/0145529))
+* new words ([1625078](https://github.com/ecomclub/i18n/commit/1625078))
+* new words for admin marketplace ([#8](https://github.com/ecomclub/i18n/issues/8)) ([1554408](https://github.com/ecomclub/i18n/commit/1554408))
+
+
+* **const-names:** add prefix 'i19' following new conventions ([#6](https://github.com/ecomclub/i18n/issues/6)) ([6a9aec3](https://github.com/ecomclub/i18n/commit/6a9aec3))
+
+
+### Bug Fixes
+
+* **phone-type:** fix convention, always capitalized ([cb8224f](https://github.com/ecomclub/i18n/commit/cb8224f))
+* fixing words updates ([628ee1f](https://github.com/ecomclub/i18n/commit/628ee1f))
+
 ### [0.1.2](https://github.com/ecomclub/i18n/compare/v0.1.1...v0.1.2) (2019-11-07)
 
 
