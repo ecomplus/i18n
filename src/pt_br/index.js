@@ -20,7 +20,8 @@ export const i19addVariationText = 'Adicione variantes se o produto possuir dife
 export const i19adminSettings = 'Configurações no painel'
 export const i19advanced = 'Avançado'
 export const i19affiliateCoede = 'Código do afiliado'
-export const i19afterPayment = 'Após a confirmação do pagamento'
+export const i19afterApproval = 'Após pedido aprovado'
+export const i19afterPayment = 'Após pagamento'
 export const i19allCategories = 'Todas categorias'
 export const i19alt = 'Tag alt'
 export const i19alterationPrice = 'Alteração padrão de preço nos produtos com essa grade para personalização ou variações.'
@@ -85,7 +86,7 @@ export const i19checkoutLink = 'Link do checkout'
 export const i19checkoutMobileLink = 'Link do checkout para mobile'
 export const i19city = 'Cidade'
 export const i19close = 'Fechar'
-export const i19closeAt = 'Fechar em'
+export const i19closedAt = 'Fechado em'
 export const i19code = 'Código'
 export const i19codeCopied = 'Código copiado'
 export const i19collection = 'Coleção'
@@ -121,6 +122,9 @@ export const i19creditCardBin = 'Número de indetificação do cartão'
 export const i19creditCardCompany = 'Emissora do cartao'
 export const i19creditCardHolderName = 'Nome no cartão'
 export const i19creditCardLastDigits = 'Últimos dígitos do cartão'
+export const i19creditorFees = 'Taxa do credor'
+export const i19creditorFeesIntermediator = 'Taxa do intermediador com credor'
+export const i19creditorFeesOperational = 'Taxa operacional do credor'
 export const i19currencyId = 'Identificador da moeda'
 export const i19currencySymbol = 'Símbolo monetário'
 export const i19custom = 'Personalização'
@@ -234,6 +238,8 @@ export const i19inactive = 'Inativo'
 export const i19info = 'Informação'
 export const i19inscriptionNumber = 'Número da inscrição estadual/municipal'
 export const i19install = 'Instalar'
+export const i19installment = 'Parcelamento'
+export const i19installments = 'Parcelamentos'
 export const i19installNow = 'Instalar agora'
 export const i19inStock = 'Disponível'
 export const i19inStockAt = 'Busque em'
@@ -310,6 +316,7 @@ export const i19onFreight = 'Frete de'
 export const i19onFollowingAddress = 'No endereço abaixo'
 export const i19open = 'Aberto'
 export const i19openAt = 'Aberto em'
+export const i19operational = 'Operacional'
 export const i19option = 'Opção'
 export const i19options = 'Opções'
 export const i19order = 'Pedido'
@@ -336,6 +343,7 @@ export const i19parentCategory = 'Categoria pai'
 export const i19partner = 'Parceiro'
 export const i19partners = 'Parceiros'
 export const i19partnersProgram = 'Programa de parceiros'
+export const i19payer = 'Pagador'
 export const i19payment = 'Pagamento'
 export const i19paymentConfirmed = 'Pagamento confirmado'
 export const i19paymentDetails = 'Detalhes do pagamento'
@@ -424,6 +432,7 @@ export const i19shipped = 'Enviado'
 export const i19shippedBy = 'Enviado por'
 export const i19shippingAddress = 'Endereço de entrega'
 export const i19shippingLinesApp = 'Método de envio selecionado pelo cliente por aplicativo'
+export const i19shippingLinesCustomFields = 'Campos customizados para essa forma de envio'
 export const i19shippingLinesDeclaredValue = 'Valor do pedido declarado ao entregador'
 export const i19shippingLinesDeclaredValuePrice = 'Custo adicional por declarar valor do pedido'
 export const i19shippingLinesDeliveryTime = 'Tempo de entrega estimado'
@@ -432,9 +441,22 @@ export const i19shippingLinesFrom = 'Endereço do remetente'
 export const i19shippingLinesItems = 'Lista de itens do pedido referido a essa forma de envio'
 export const i19shippingLinesInvoices = 'Lista de notas fiscais'
 export const i19shippingLinesNotes = 'Informação adicional para essa forma de envio'
-export const i19shippingOtherAdditionals = 'Lista de outros serviços adicionais da forma de envio'
-export const i19shippingOwnHand = 'Se a embalagem deve ser entregue com serviço adicional "de mão própria"'
-export const i19shippingOwnHandPrice = 'Custo pelo envio de entrega a "mão própria"'
+export const i19shippingLinesOtherAdditionals = 'Lista de outros serviços adicionais da forma de envio'
+export const i19shippingLinesOwnHand = 'Se a embalagem deve ser entregue com serviço adicional "de mão própria"'
+export const i19shippingLinesOwnHandPrice = 'Custo pelo envio de entrega a "mão própria"'
+export const i19shippingLinesPackage = 'Informações sobre o objeto de remessa'
+export const i19shippingLinesPackageDimensions = 'Dimensões do objeto da remessa'
+export const i19shippingLinesPackageWeight = 'Peso do objeto da remessa'
+export const i19shippingLinesPostingDeadline = 'Período final para entrega de pacotes'
+export const i19shippingLinesPrice = 'Preço da forma de envio, sem contabilizar adicionais'
+export const i19shippingLinesReceipt = 'Se o lojista deseja receber recibo de entrega'
+export const i19shippingLinesReceiptPrice = 'Preço referente ao recebi contratado'
+export const i19shippingLinesScheduledDelivery = 'Entrega programada'
+export const i19shippingLinesStatus = 'Data e hora da mudança de status'
+export const i19shippingLinesTaxes = 'Listas de taxas e adicionais da forma de envio'
+export const i19shippingLinesTo = 'Endereço do destinatário'
+export const i19shippingLinesTotalPrice = 'Preço total da forma de envio com adicionais'
+export const i19shippingLinesTrackingCodes = 'Lista dos códigos de rastreamento da forma d envio'
 export const i19shippingMethod = 'Opções de envio'
 export const i19shippingMethodLabel = 'Nome da forma de envio'
 export const i19shopByCategory = 'Compre por categorias'
@@ -493,6 +515,9 @@ export const i19totalCancelled = 'Valor total de compras canceladas'
 export const i19totalResultsFor = 'Produtos encontrados para'
 export const i19totalSpent = 'Valor total de compras confirmadas'
 export const i19transactionCode = 'Código da transação'
+export const i19transactionItems = 'Lista de itens da transação'
+export const i19transactionStatus = 'Status da transação com data e hora'
+export const i19transactionType = 'Tipo da transação'
 export const i19trendingApps = 'Aplicativos populares'
 export const i19type = 'Tipo'
 export const i19unavailable = 'Indisponível'
@@ -500,7 +525,7 @@ export const i19uninstall = 'Desinstalar'
 export const i19unlimited = 'Ilimitado'
 export const i19unsub = 'Cancelar assinatura'
 export const i19update = 'Atualização'
-export const i19updateAt = 'Atualizado em'
+export const i19updatedAt = 'Atualizado em'
 export const i19upTo = 'Até'
 export const i19username = 'Username'
 export const i19utm = 'Utm'
@@ -540,6 +565,23 @@ export const i19year = 'Ano'
 export const i19yourInstalledApps = 'Seus apps instalados'
 export const i19zipCode = 'CEP'
 
+export const i19CancelReason = {
+  customer: 'Cancelado pelo cliente',
+  fraud: 'Cancelado por fraude',
+  inventory: 'Cancelado por falta de estoque',
+  declined: 'Cancelado pela empresa de cartão de crédito',
+  other: 'Outro motivo'
+}
+
+export const i19ChannelType = {
+  ecommerce: 'E-commerce',
+  mobile: 'Mobile',
+  pos: 'PDV',
+  button: 'Botão',
+  facebook: 'Facebook',
+  chatbot: 'Chatbot'
+}
+
 export const i19DiscountApplyAt = {
   total: 'Total',
   subtotal: 'Subtotal',
@@ -549,11 +591,6 @@ export const i19DiscountApplyAt = {
 export const i19DiscountType = {
   percentage: 'Percentual',
   fixed: 'Fixo'
-}
-
-export const i19InscriptionType = {
-  state: 'Estadual',
-  municipal: 'Municipal'
 }
 
 export const i19FinancialStatus = {
@@ -612,6 +649,17 @@ export const i19FulfillmentStatusMsg = {
   returned: 'Seu pedido foi'
 }
 
+export const i19Gender = {
+  f: 'Feminino',
+  m: 'Masculino',
+  x: 'X'
+}
+
+export const i19InscriptionType = {
+  state: 'Estadual',
+  municipal: 'Municipal'
+}
+
 export const i19Modules = {
   page_loaded: 'Página carregada',
   term_searched: 'Termo procurado',
@@ -629,6 +677,20 @@ export const i19OrderStatus = {
   cancelled: 'Cancelado'
 }
 
+export const i19PaymentsHistoryStatus = {
+  pending: 'Aguardando pagamento',
+  under_analysis: 'Pagamento em análise',
+  authorized: 'Pagamento autorizado',
+  unauthorized: 'Pagamento não autorizado',
+  partially_paid: 'Parcialmente pago',
+  paid: 'Pagamento aprovado',
+  dispute: 'Pagamento em disputa',
+  partially_refunded: 'Pagamento parcialemente devolvido',
+  refunded: 'Pagamento devolvido',
+  voided: 'Pagamento cancelado',
+  unknown: 'Situação do pagamento desconhecida'
+}
+
 export const i19PhoneType = {
   home: 'Casa',
   personal: 'Pessoal',
@@ -641,31 +703,27 @@ export const i19RegistryType = {
   j: 'Pessoa jurídica'
 }
 
+export const i19ShippingLinesStatus = {
+  ready_for_shipping: 'Pronto para envio',
+  shipped: 'Enviado',
+  delivered: 'Entregue',
+  invoice_issued: 'NF emitida',
+  in_production: 'Em produção',
+  in_separation: 'Em separação',
+  partially_shipped: 'Parte enviado',
+  partially_delivered: 'Parte entregue',
+  returned_for_exchange: 'Retorno da troca',
+  received_for_exchange: 'Recebido para troca',
+  returned: 'Devolvido'
+}
+
 export const i19StateRegister = {
   invited: 'Convidado',
   registered: 'Registrado',
   declined: 'Recusado'
 }
 
-export const i19ChannelType = {
-  ecommerce: 'E-commerce',
-  mobile: 'Mobile',
-  pos: 'Pdv',
-  button: 'Botão',
-  facebook: 'Facebook',
-  chatbot: 'Chatbot'
-}
-
-export const i19CancelReason = {
-  customer: 'Cancelado pelo cliente',
-  fraud: 'Cancelado por fraude',
-  inventory: 'Cancelado por falta de estoque',
-  declined: 'Cancelado pela empresa de cartão de crédito',
-  other: 'Outro motivo'
-}
-
-export const i19Gender = {
-  f: 'Feminino',
-  m: 'Masculino',
-  x: 'X'
+export const i19TransactionsType = {
+  payment: 'Pagamento',
+  recurrence: 'Assinatura'
 }
