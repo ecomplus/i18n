@@ -10,7 +10,7 @@ export const i19addClient = 'Add client'
 export const i19addGrid = 'Add grid'
 export const i19additional = 'Additional'
 export const i19additionalCost = 'Additional cost'
-export const i19additionalCostOption = ' Options additional cost'
+export const i19additionalCostOption = 'Options additional cost'
 export const i19address = 'Address'
 export const i19addresses = 'Addresses'
 export const i19addressesName = 'Recipient'
@@ -20,10 +20,12 @@ export const i19addVariationText = 'Add variants if the product has different ve
 export const i19adminSettings = 'Admin Settings'
 export const i19advanced = 'Advanced'
 export const i19affiliateCoede = 'Afiliate code'
-export const i19afterPayment = 'After the payment approval'
+export const i19afterApproval = 'After payment approval'
+export const i19afterPayment = 'After payment'
 export const i19allCategories = 'All categories'
 export const i19alt = 'Alt tag'
 export const i19alterationPrice = 'Default price alteration on products with this grid for customization or variations.'
+export const i19amount = 'Amount'
 export const i19another = 'Another'
 export const i19app = 'App'
 export const i19appDevelopers = 'App developers'
@@ -46,18 +48,22 @@ export const i19basePrice = 'Base price'
 export const i19billingAddress = 'Billing address'
 export const i19birthdate = 'Birthdate'
 export const i19borough = 'Borough'
+export const i19budgetOnly = 'If order is only budget without transaction'
 export const i19buy = 'Buy'
 export const i19buyer = 'Buyer'
+export const i19buyers = 'Buyers'
 export const i19by = 'by'
 export const i19brand = 'Brand'
 export const i19brandBanners = 'Brand banners'
 export const i19brandName = 'Brand name'
 export const i19brazil = 'Brazil'
+export const i19browserIp = 'IP address of the browser'
 export const i19buyWith = 'Frequently bought together'
 export const i19calculateShipping = 'Calculate shipping'
 export const i19callback = 'Callback'
 export const i19cancel = 'Cancel'
 export const i19cancelled = 'Cancelled'
+export const i19cancelledAt = 'Cancelled at'
 export const i19cardNumber = 'Card number'
 export const i19cartConfirmed = 'Cart confirmed'
 export const i19cartDetails = 'Cart details'
@@ -70,7 +76,9 @@ export const i19cellphone = 'Cellphone'
 export const i19changePaymentMethod = 'Change payment method'
 export const i19changeShippingMethod = 'Change shipping method'
 export const i19channel = 'Channel'
+export const i19channelId = 'Channel unique identifier'
 export const i19channels = 'Channels'
+export const i19channelType = 'Channel type'
 export const i19checkout = 'Buy now'
 export const i19checkoutEnabled = 'Checkout enabled'
 export const i19checkoutDone = 'Checkout done'
@@ -78,6 +86,7 @@ export const i19checkoutLink = 'Checkout link'
 export const i19checkoutMobileLink = 'Checkout link mobile'
 export const i19city = 'City'
 export const i19close = 'Close'
+export const i19closedAt = 'Closed at'
 export const i19code = 'Code'
 export const i19codeCopied = 'Code copied'
 export const i19collection = 'Collection'
@@ -113,6 +122,9 @@ export const i19creditCardBin = 'Credit card issuer identification'
 export const i19creditCardCompany = 'Credit card issuer'
 export const i19creditCardHolderName = 'Full name on credit card'
 export const i19creditCardLastDigits = 'Last digits from credit card'
+export const i19creditorFees = 'Creditor fees'
+export const i19creditorFeesIntermediator = 'Intermediator fee'
+export const i19creditorFeesOperational = 'Operational fee'
 export const i19currencyId = 'Currency Identifier'
 export const i19currencySymbol = 'Currency symbol'
 export const i19custom = 'Customize'
@@ -138,6 +150,7 @@ export const i19displayName = 'Display name'
 export const i19docCountry = 'Country of document origin'
 export const i19docNumber = 'Document number'
 export const i19docs = 'Docs'
+export const i19domain = 'Domain'
 export const i19doPaymentMsg = 'Please finalize the payment to confirm your purchase'
 export const i19edit = 'Edit'
 export const i19editAdditionalCost = 'Edit additional cost'
@@ -159,6 +172,7 @@ export const i19emailDeliveredText = 'We hope you have enjoyed shopping with us 
 export const i19emailDeliveredTitle = 'Your package was delivered!'
 export const i19emailInfo = 'Any update to the order will be notified by email, you can also track the progress through'
 export const i19emailMarketing = 'Email marketing'
+export const i19emails = 'Emails'
 export const i19emailShippedText = 'Your package is now with the carrier. To track the delivery progress, go to'
 export const i19emailShippedTitle = 'Your package is on the way!'
 export const i19emptyCart = 'Your shopping cart is empty'
@@ -198,6 +212,7 @@ export const i19giftsListInfoTitle = 'Title for the gift list'
 export const i19giftsListInfoValidThru = 'Validity of the list, until this date the gifts can be bought'
 export const i19giftListOwnerID = 'Specify customer ID who will receive the gift'
 export const i19giftListWaiting = 'Wait giftlist for purchase'
+export const i19giftTo = 'Gift to'
 export const i19gitRepository = 'Github repository'
 export const i19givenName = 'Given name'
 export const i19goToStore = 'Go to store'
@@ -223,6 +238,8 @@ export const i19inactive = 'Inactive'
 export const i19info = 'Information'
 export const i19inscriptionNumber = 'Inscription number'
 export const i19install = 'Install'
+export const i19installment = 'Installment'
+export const i19installments = 'Installments'
 export const i19installNow = 'Install now'
 export const i19inStock = 'In Stock'
 export const i19inStockAt = 'In Stock At'
@@ -286,6 +303,8 @@ export const i19noAdditional = 'No additional'
 export const i19noResultsFor = 'No results for'
 export const i19normal = 'Normal'
 export const i19notifications = 'Notifications'
+export const i19notified = 'Notified'
+export const i19notifiedAdmins = 'List of administrators that already seen current status change'
 export const i19notifyAboutOrders = 'Notify about progress of the order'
 export const i19notes = 'Additional info'
 export const i19noNumber = 'No number'
@@ -295,6 +314,9 @@ export const i19of = 'Of'
 export const i19ofDiscount = 'Of discount'
 export const i19onFreight = 'On freight'
 export const i19onFollowingAddress = 'On the following address'
+export const i19open = 'Open'
+export const i19openAt = 'Open at'
+export const i19operational = 'Operational'
 export const i19option = 'Option'
 export const i19options = 'Options'
 export const i19order = 'Order'
@@ -303,6 +325,7 @@ export const i19orders = 'Orders'
 export const i19orderCreated = 'Order created'
 export const i19orderConfirmationMsg = 'Your order has been confirmed, thanks for your preference'
 export const i19ordersCount = 'Total orders'
+export const i19orderCode = 'Order code'
 export const i19orderItems = 'Order items'
 export const i19orderNumber = 'Order number'
 export const i19orderStatus = 'Order status'
@@ -320,6 +343,7 @@ export const i19parentCategory = 'Parent category'
 export const i19partner = 'Partner'
 export const i19partners = 'Partners'
 export const i19partnersProgram = 'Partners program'
+export const i19payer = 'Payer'
 export const i19payment = 'Payment'
 export const i19paymentConfirmed = 'Payment Confirmed'
 export const i19paymentDetails = 'Payment details'
@@ -364,6 +388,7 @@ export const i19receiveNewsletter = 'Receive newsletter'
 export const i19recipient = 'Recipient'
 export const i19redirectToPayment = 'Redirect to payment'
 export const i19reference = 'Reference'
+export const i19referenceCode = 'Reference code'
 export const i19referral = 'Customer invided by'
 export const i19referringSite = 'Referring site'
 export const i19registerToBuy = 'Complete your registration to proceed with the purchase'
@@ -396,14 +421,42 @@ export const i19seeCart = 'See shopping cart'
 export const i19seeMoreCategories = 'See more categories'
 export const i19seeMoreInfo = 'See more info'
 export const i19seeOrder = 'See order'
+export const i19seller = 'Seller'
 export const i19sellerRecommendations = 'Seller recommendations'
 export const i19sellerRecommendationsProducts = 'Seller recommendation products'
 export const i19sellerRecommendationsTitle = 'Seller recommendation title'
+export const i19sellerStatus = 'Order status created by seller'
 export const i19seo = 'SEO'
 export const i19shareWhats = 'Share in to Whatsapp'
 export const i19shipped = 'Shipped'
 export const i19shippedBy = 'Shipped by'
 export const i19shippingAddress = 'Shipping address'
+export const i19shippingLinesApp = 'Shipping method (by application) chosen by customer'
+export const i19shippingLinesCustomFields = 'Custom fields in shipping lines'
+export const i19shippingLinesDeclaredValue = 'The package value declared to carrier'
+export const i19shippingLinesDeclaredValuePrice = 'Cost for the "declared value" additional service'
+export const i19shippingLinesDeliveryTime = 'Estimated delivery time'
+export const i19shippingLinesDiscount = 'Discount on shipping price, negative if value was additionated (not discounted)'
+export const i19shippingLinesFrom = 'Senders address'
+export const i19shippingLinesItems = 'List of order items related with this shipping line, use only if items are divided'
+export const i19shippingLinesInvoices = 'List of invoices'
+export const i19shippingLinesNotes = 'Optional notes with additional info about this shipping line'
+export const i19shippingLinesOtherAdditionals = 'List of other additional services for this shipping line'
+export const i19shippingLinesOwnHand = 'Whether the package must be delivered with additional service "own hand"'
+export const i19shippingLinesOwnHandPrice = 'Cost for the "own hand" additional service'
+export const i19shippingLinesPackage = 'Shipping object information'
+export const i19shippingLinesPackageDimensions = 'Object dimensions information'
+export const i19shippingLinesPackageWeight = 'Object weight information'
+export const i19shippingLinesPostingDeadline = 'Deadline for sending the package'
+export const i19shippingLinesPrice = 'Freight cost for this shipping line, without additionals'
+export const i19shippingLinesReceipt = 'If the package will be delivered with acknowledgment of receipt'
+export const i19shippingLinesReceiptPrice = 'Price of receipt as additional service'
+export const i19shippingLinesScheduledDelivery = 'Scheduled delivered'
+export const i19shippingLinesStatus = 'Fulfillment status and date of change'
+export const i19shippingLinesTaxes = 'List of taxes or other additional services for this shipping line'
+export const i19shippingLinesTo = 'Shipping address (recipient)'
+export const i19shippingLinesTotalPrice = 'Total cost for this shipping line, with additionals and taxes'
+export const i19shippingLinesTrackingCodes = 'List of codes for delivery status follow-up'
 export const i19shippingMethod = 'Shipping options'
 export const i19shippingMethodLabel = 'Shipping method label'
 export const i19shopByCategory = 'Shop by category'
@@ -425,6 +478,7 @@ export const i19slug = 'Slug (URL)'
 export const i19socialLogin = 'Social login'
 export const i19socialMedia = 'Social media'
 export const i19source = 'Source'
+export const i19sourceName = 'Name of order origin'
 export const i19sort = 'Sort'
 export const i19sortBy = 'Sort by'
 export const i19specifications = 'Specifications'
@@ -433,6 +487,8 @@ export const i19staffSignature = 'Created by staff'
 export const i19star = 'Star'
 export const i19state = 'State'
 export const i19status = 'Status'
+export const i19statusLink = 'URL to order status page, if necessary, use (_id) where order unique ID must appear'
+export const i19statusMobileLink = 'URL to order status page for mobile devices'
 export const i19street = 'Street'
 export const i19store = 'Store'
 export const i19storefront = 'Storefront'
@@ -459,6 +515,9 @@ export const i19totalCancelled = 'Total cancelled'
 export const i19totalResultsFor = 'Products found for'
 export const i19totalSpent = 'Total spent by custumer'
 export const i19transactionCode = 'Transaction code'
+export const i19transactionItems = 'List of items transaction'
+export const i19transactionStatus = 'Data and hour of changed status at transaction'
+export const i19transactionType = 'Transaction type'
 export const i19trendingApps = 'Trending apps'
 export const i19type = 'Type'
 export const i19unavailable = 'Unavailable'
@@ -466,6 +525,7 @@ export const i19uninstall = 'Uninstall'
 export const i19unlimited = 'Unlimited'
 export const i19unsub = 'Unsubscribe'
 export const i19update = 'Update'
+export const i19updatedAt = 'Updated at'
 export const i19upTo = 'Up to'
 export const i19username = 'Username'
 export const i19utm = 'Utm'
@@ -497,12 +557,30 @@ export const i19weUseYourDataTo = 'We will use your data safely and responsibly 
 export const i19widgets = 'Widgets'
 export const i19width = 'Width'
 export const i19willReceiveMsg = 'You\'ll receive the products in up to'
+export const i19withoutInstallmentRates = 'Without installment rates'
 export const i19write = 'Write'
 export const i19writeReview = 'Write a review'
 export const i19workingDays = 'Working days'
 export const i19year = 'Year'
 export const i19yourInstalledApps = 'Your installed apps'
 export const i19zipCode = 'Zip Code'
+
+export const i19CancelReason = {
+  customer: 'Cancelled by customer',
+  fraud: 'Cancelled for fraud',
+  inventory: 'Cancelled due to out of stock',
+  declined: 'Canceled by credit card company',
+  other: 'Other reason'
+}
+
+export const i19ChannelType = {
+  ecommerce: 'Ecommerce',
+  mobile: 'Mobile',
+  pos: 'POS',
+  button: 'Button',
+  facebook: 'Facebook',
+  chatbot: 'Chatbot'
+}
 
 export const i19DiscountApplyAt = {
   total: 'Total',
@@ -571,6 +649,12 @@ export const i19FulfillmentStatusMsg = {
   returned: 'Your order was'
 }
 
+export const i19Gender = {
+  f: 'Female',
+  m: 'Male',
+  x: 'X'
+}
+
 export const i19InscriptionType = {
   state: 'State',
   municipal: 'Municipal'
@@ -593,6 +677,20 @@ export const i19OrderStatus = {
   cancelled: 'Cancelled'
 }
 
+export const i19PaymentsHistoryStatus = {
+  pending: 'Pending payment',
+  under_analysis: 'Payment under analysis',
+  authorized: 'Authorized payment',
+  unauthorized: 'Unauthorized payment',
+  partially_paid: 'Partially paid',
+  paid: 'Paid',
+  dispute: 'Payment in dispute',
+  partially_refunded: 'Payment partially refunded',
+  refunded: 'Payment refunded',
+  voided: 'Payment voided',
+  unknown: 'Unknown payment status'
+}
+
 export const i19PhoneType = {
   home: 'Home',
   personal: 'Personal',
@@ -605,8 +703,27 @@ export const i19RegistryType = {
   j: 'Juridical'
 }
 
+export const i19ShippingLinesStatus = {
+  ready_for_shipping: 'Ready for shipping',
+  shipped: 'Shipped',
+  delivered: 'Delivered',
+  invoice_issued: 'Invoice issued',
+  in_production: 'In production',
+  in_separation: 'In separation',
+  partially_shipped: 'Partially shipped',
+  partially_delivered: 'Partially delivered',
+  returned_for_exchange: 'Returned for exchange',
+  received_for_exchange: 'Received for exchange',
+  returned: 'Returned'
+}
+
 export const i19StateRegister = {
   invited: 'invited',
   registered: 'registered',
   declined: 'declined'
+}
+
+export const i19TransactionsType = {
+  payment: 'Payment',
+  recurrence: 'Recurrence'
 }
