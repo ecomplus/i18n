@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ecomclub/i18n/compare/v1.0.0...v1.1.0) (2019-11-17)
+
+
+### Features
+
+* new words from resource order ([#10](https://github.com/ecomclub/i18n/issues/10)) ([4d374fa](https://github.com/ecomclub/i18n/commit/4d374fa))
+* new words resource product ([#9](https://github.com/ecomclub/i18n/issues/9)) ([79857f5](https://github.com/ecomclub/i18n/commit/79857f5))
+
 ## [1.0.0](https://github.com/ecomclub/i18n/compare/v0.1.2...v1.0.0) (2019-11-12)
 
 
