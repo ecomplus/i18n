@@ -18,6 +18,8 @@ export const i19addPref = 'Adicionar aos desejos'
 export const i19addToPrice = 'Adicionar preço'
 export const i19addVariationText = 'Adicione variantes se o produto possuir diferentes versões e grades, como tamanhos ou cores'
 export const i19adminSettings = 'Configurações no painel'
+export const i19adRelevance = 'Número para definir a importância do anúncio'
+export const i19adType = 'Opção definida pelo vendedor como por exemplo Gold e Silver'
 export const i19advanced = 'Avançado'
 export const i19affiliateCoede = 'Código do afiliado'
 export const i19afterApproval = 'Após pedido aprovado'
@@ -27,12 +29,15 @@ export const i19alt = 'Tag alt'
 export const i19alterationPrice = 'Alteração padrão de preço nos produtos com essa grade para personalização ou variações.'
 export const i19amount = 'Montante'
 export const i19another = 'Outro'
+export const i19api = 'Api'
 export const i19app = 'Aplicativo'
 export const i19appDevelopers = 'Desenvolvedor de aplicativos'
 export const i19applyDiscount = 'Aplicar desconto'
 export const i19atSight = 'À vista'
 export const i19attachment = 'Anexar'
 export const i19authentication = 'Autenticação'
+export const i19author = 'Autor'
+export const i19authorizedStores = 'Lista de ids de lojas autorizadas a vender este produto'
 export const i19automaticallyTrackInventory = 'Controle automático de estoque'
 export const i19available = 'Disponível'
 export const i19availablePurchase = 'Disponível para compra'
@@ -128,9 +133,16 @@ export const i19creditorFeesOperational = 'Taxa operacional do credor'
 export const i19currencyId = 'Identificador da moeda'
 export const i19currencySymbol = 'Símbolo monetário'
 export const i19custom = 'Personalização'
+export const i19customizations = 'Customização'
+export const i19customizationsAddToPrice = 'Alteração do preço devido a customização'
+export const i19customizationsAttachment = 'Anexar arquivo customizado'
+export const i19customizationsLabel = 'Rótulo da customização'
+export const i19customizationsOption = 'Opção escolhida ou criada pelo cliente'
 export const i19customValue = 'Opção personalizada'
 export const i19customer = 'Cliente'
+export const i19customerNotified = 'Se cliente já foi notificado pelo evento'
 export const i19dashboard = 'Painel'
+export const i19dateTime = 'Data e hora do evento utilizando a ISO 8601 como padrão'
 export const i19day = 'Dia'
 export const i19days = 'Dias'
 export const i19danger = 'Perigo'
@@ -188,6 +200,7 @@ export const i19familyName = 'Último nome'
 export const i19featuredApps = 'Aplicativos em destaque'
 export const i19female = 'Feminino'
 export const i19field = 'Campo'
+export const i19finalPrice = 'Preço final incluindo adicionais'
 export const i19financialStatus = 'Status financeiro'
 export const i19followingAddress = 'Para o endereço abaixo'
 export const i19free = 'Grátis'
@@ -200,6 +213,7 @@ export const i19gateway = 'Gateway'
 export const i19gender = 'Gênero'
 export const i19genderX = 'Outros'
 export const i19generateBillet = 'Gerar boleto'
+export const i19get = 'Get'
 export const i19giftList = 'Adicionar na lista de presentes'
 export const i19giftsListInfo = 'Informações da lista de presente'
 export const i19giftsListInfoAuthors = 'Criadores da lista de presente'
@@ -213,6 +227,7 @@ export const i19giftsListInfoValidThru = 'Validade da lista de presente'
 export const i19giftListOwnerID = 'Especificar ID do cliente que receberá presente'
 export const i19giftListWaiting = 'Lista de presente'
 export const i19giftTo = 'Presente para'
+export const i19giftWrap = 'Embrulho de presente escolhido pelo cliente'
 export const i19gitRepository = 'Repositório do github'
 export const i19givenName = 'Primeiro nome'
 export const i19goToStore = 'Ir para a loja'
@@ -249,6 +264,7 @@ export const i19invalidCard = 'Cartão inválido'
 export const i19invalidCardMsg = 'Não foi possível validar este cartão, por favor verifique os dados ou tente novamente mais tarde'
 export const i19invalidLoginInfo = 'Login inválido, por favor verifique os dados informados'
 export const i19inventory = 'Inventório'
+export const i19inventoryRecords = 'Histórico de alteração do inventório'
 export const i19isFilter = 'Resultados do filtro'
 export const i19isNotYou = 'Não é você'
 export const i19item = 'Item'
@@ -272,17 +288,23 @@ export const i19loginError = 'Houve um erro ao tentar o login, por favor tente n
 export const i19logo = 'Logo'
 export const i19logout = 'Sair'
 export const i19loyaltyPoints = 'Pontos do programa de fidalidade'
+export const i19loyaltyPointsName = 'Nome do programa de fidalidade'
+export const i19loyaltyPointsPointsValue = 'Número de pontos recebidos pelo programa de fidelidade'
 export const i19madeBy = 'Feito por'
 export const i19mainEmail = 'E-mail principal'
 export const i19male = 'Masculino'
+export const i19manageStock = 'Se verdade, decrescer estoque após nova venda'
 export const i19manageYourHistory = 'Gerenciar seu histórico de compras'
 export const i19marketing = 'Marketing'
-export const i19media = 'Mídia'
-export const i19mediaGallery = 'Galeria de imagens'
-export const i19metaTagDescription = 'Meta description tag'
 export const i19marketplace = 'Marketplace'
 export const i19marketplaces = 'Marketplaces'
+export const i19media = 'Mídia'
+export const i19mediaGallery = 'Galeria de imagens'
+export const i19measurement = 'Meça e dimensione seu produto quando os usuários estiverem interessados ​​no preço por unidade'
+export const i19metafields = 'Lista de atributos customizados'
+export const i19metaTagDescription = 'Meta description tag'
 export const i19middleName = 'Sobrenome do meio'
+export const i19minQuantity = 'Quantidade mínima a ser inserida no carrinho'
 export const i19mlCategoryId = 'ID da categoria no ML'
 export const i19mobile = 'Mobile'
 export const i19mobileLink = 'Links específicos para celular'
@@ -294,6 +316,7 @@ export const i19myCart = 'Meu carrinho'
 export const i19myOrders = 'Meus pedidos'
 export const i19name = 'Nome'
 export const i19nameOnCard = 'Nome impresso cartão'
+export const i19namespace = 'String para ajudar a distinguir quem (ou qual aplicativo) criou e pode usa-lo'
 export const i19nearTo = 'Referência do endereço'
 export const i19new = 'Novo'
 export const i19next = 'Próximo'
@@ -343,6 +366,7 @@ export const i19parentCategory = 'Categoria pai'
 export const i19partner = 'Parceiro'
 export const i19partners = 'Parceiros'
 export const i19partnersProgram = 'Programa de parceiros'
+export const i19patch = 'Patch'
 export const i19payer = 'Pagador'
 export const i19payment = 'Pagamento'
 export const i19paymentConfirmed = 'Pagamento confirmado'
@@ -367,18 +391,30 @@ export const i19post = 'Post'
 export const i19posted = 'Postado'
 export const i19postingIn = 'Seu pedido será enviado em até'
 export const i19price = 'Preço'
+export const i19priceEffectiveDate = 'Validade da promoção'
+export const i19priceEffectiveDateEnd = 'Data final da promoção na ISO 8601'
+export const i19priceEffectiveDateStar = 'Data de início da promoção na ISO 8601'
 export const i19pricing = 'Precificação'
 export const i19printBillet = 'Imprimir boleto'
 export const i19privacy = 'Privacidade'
 export const i19privacyPolicy = 'Política de privacidade'
+export const i19private = 'Privado'
+export const i19privateMetafields = 'Lista de atributos personalizados, ocultos por padrão e visíveis para os compradores'
 export const i19product = 'Produto'
+export const i19productId = 'Id do produto'
 export const i19productImages = 'Imagens do produto'
+export const i19productionTime = 'Prazo para produção ou manuseio do produto encomendado'
+export const i19productionTimeCumulative = 'Se o o tempo de produção é acumulativo por unidade'
+export const i19productionTimeDays = 'Número de dias para postar o produto após a compra, prazo para produção ou manuseio'
+export const i19productionTimeMaxTime = 'Número de dias máximo para postar, se for acumulativo'
+export const i19productionTimeWorkingDays = 'Se o tempo de produção é calculado em dias úteis'
 export const i19productName = 'Nome do produto'
 export const i19products = 'Produtos'
 export const i19productsPurchased = 'Produtos comprados pelos clientes'
 export const i19profileNotFound = 'Nenhum perfil encontrado com o endereço de e-mail'
 export const i19province = 'Nome do estado'
 export const i19provinceCode = 'UF'
+export const i19put = 'Put'
 export const i19quantity = 'Quantidade'
 export const i19random = 'Aleatório'
 export const i19rating = 'Avaliação'
@@ -396,6 +432,8 @@ export const i19registration = 'Cadastro'
 export const i19relatedSearch = 'Consultas relacionadas'
 export const i19relatedProduct = 'Produtos Relacionados'
 export const i19remove = 'Remover'
+export const i19resource = 'Recurso'
+export const i19resourceId = 'Id do recurso'
 export const i19resultsFor = 'Resultados para'
 export const i19retail = 'Retenção'
 export const i19reviews = 'Avaliações de Clientes'
@@ -431,6 +469,7 @@ export const i19shareWhats = 'Compartilhar no Whatsapp'
 export const i19shipped = 'Enviado'
 export const i19shippedBy = 'Enviado por'
 export const i19shippingAddress = 'Endereço de entrega'
+export const i19shippingLineId = 'Id da forma de envio relacionada ao evento'
 export const i19shippingLinesApp = 'Método de envio selecionado pelo cliente por aplicativo'
 export const i19shippingLinesCustomFields = 'Campos customizados para essa forma de envio'
 export const i19shippingLinesDeclaredValue = 'Valor do pedido declarado ao entregador'
@@ -492,6 +531,8 @@ export const i19statusMobileLink = 'Link de status do pedido para mobile'
 export const i19street = 'Rua'
 export const i19store = 'Loja'
 export const i19storefront = 'Storefront'
+export const i19subresource = 'Sub recurso'
+export const i19subresourceId = 'Id do sub recurso'
 export const i19subtitle = 'Subtítulo para SEO'
 export const i19subtotal = 'Subtotal'
 export const i19success = 'Sucesso'
@@ -515,10 +556,12 @@ export const i19totalCancelled = 'Valor total de compras canceladas'
 export const i19totalResultsFor = 'Produtos encontrados para'
 export const i19totalSpent = 'Valor total de compras confirmadas'
 export const i19transactionCode = 'Código da transação'
+export const i19transactionId = 'Id da transação'
 export const i19transactionItems = 'Lista de itens da transação'
 export const i19transactionStatus = 'Status da transação com data e hora'
 export const i19transactionType = 'Tipo da transação'
 export const i19trendingApps = 'Aplicativos populares'
+export const i19triggers = 'Lista de eventos que chamam este procedimento'
 export const i19type = 'Tipo'
 export const i19unavailable = 'Indisponível'
 export const i19uninstall = 'Desinstalar'
@@ -538,6 +581,7 @@ export const i19url = 'Url'
 export const i19validThru = 'Validade'
 export const i19value = 'Valor'
 export const i19variation = 'Variação'
+export const i19variationId = 'Id da variação'
 export const i19variationName = 'Nome da variação'
 export const i19variations = 'Variações'
 export const i19verified = 'Verificado'
@@ -549,6 +593,12 @@ export const i19visitor = 'Visitante'
 export const i19visitorCheckout = 'Você também pode comprar como visitante se preferir'
 export const i19warning = 'Aviso'
 export const i19wasAnErrorOnLogin = 'Houve um erro ao tentar o login, por favor tente novamente ou selecione outra opção'
+export const i19webhooks = 'Lista de notificações a serem enviadas quando esse procedimento for chamado. Em algumas propriedades, você pode usar variáveis ​​do objeto acionador com a notação (tr. *), Por exemplo: (tr.body.name)'
+export const i19webhooksApi = 'Notifificações que deverão ser enviadas para API'
+export const i19webhooksApiExternalApi = 'Use esta propriedade se o webhook for para qualquer API externa (não api.e-com.plus)'
+export const i19webhooksApiStoreApi = 'Use esta propriedade se o webhook for armazenar API (api.e-com.plus)'
+export const i19webhooksMapBody = 'Objeto a enviar, é possível usar variáveis ​​como valores de propriedades'
+export const i19webhooksSendBody = 'Se verdadeiro, o body é enviado na notificação. Se map_body é indefinido, objeto do trigger será enviado'
 export const i19weight = 'Peso'
 export const i19weFrom = 'Nós da'
 export const i19welcome = 'Boas vindas'
@@ -580,6 +630,18 @@ export const i19ChannelType = {
   button: 'Botão',
   facebook: 'Facebook',
   chatbot: 'Chatbot'
+}
+
+export const i19CommodityType = {
+  physical: 'Físico',
+  digital: 'Digital'
+}
+
+export const i19Condition = {
+  new: 'Novo',
+  refurbished: 'Recondicionado',
+  used: 'Usado',
+  not_specified: 'Não especificado'
 }
 
 export const i19DiscountApplyAt = {
@@ -660,6 +722,30 @@ export const i19InscriptionType = {
   municipal: 'Municipal'
 }
 
+export const i19MeasurementUnit = {
+  oz: 'Oz',
+  lb: 'Lb',
+  mg: 'Mg',
+  g: 'g',
+  kg: 'Kg',
+  floz: 'Floxz',
+  pt: 'Pt',
+  qt: 'Qt',
+  gal: 'Gal',
+  ml: 'Ml',
+  cl: 'Cl',
+  l: 'L',
+  cbm: 'Cbm',
+  in: 'In',
+  ft: 'Ft',
+  yd: 'Yd',
+  cm: 'Cm',
+  m: 'M',
+  sqft: 'Sqft',
+  sqm: 'Sqm',
+  ct: 'Ct'
+}
+
 export const i19Modules = {
   page_loaded: 'Página carregada',
   term_searched: 'Termo procurado',
@@ -726,4 +812,38 @@ export const i19StateRegister = {
 export const i19TransactionsType = {
   payment: 'Pagamento',
   recurrence: 'Assinatura'
+}
+
+export const i19TriggersAction = {
+  create: 'Criar',
+  change: 'Alterar',
+  delete: 'Deletar'
+}
+
+export const i19TriggersMethods = {
+  post: 'POST',
+  patch: 'PATCH',
+  put: 'PUT',
+  delete: 'DELETE'
+}
+
+export const i19TriggersResource = {
+  authentications: 'Autenticações',
+  products: 'Produtos',
+  categories: 'Categorias',
+  brands: 'Marcas',
+  collections: 'Coleções',
+  grids: 'Grades',
+  customers: 'Clientes',
+  carts: 'Carrinhos',
+  orders: 'Pedidos',
+  applications: 'Aplicações'
+}
+
+export const i19WebhooksMethods = {
+  get: 'GET',
+  post: 'POST',
+  patch: 'PATCH',
+  put: 'PUT',
+  delete: 'DELETE'
 }
