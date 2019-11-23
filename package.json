@@ -4,6 +4,7 @@
   "description": "Tree shakable dictionary for e-commerce JS apps",
   "main": "dist/i18n.min.js",
   "module": "src/index.js",
+  "sideEffects": false,
   "scripts": {
     "generate": "node ./scripts/generate-named-exports",
     "build": "npm run generate && NODE_ENV=production webpack",
