@@ -724,17 +724,6 @@ export const i19InscriptionType = {
   municipal: 'Municipal'
 }
 
-export const i19Modules = {
-  page_loaded: 'Page loaded',
-  term_searched: 'Term searched',
-  cart_confirmed: 'Cart confirmed',
-  calculate_shipping: 'Calculate shipping',
-  list_payments: 'List payments',
-  apply_discount: 'Apply discount',
-  create_transaction: 'Create transaction',
-  checkout_done: 'Checkout done'
-}
-
 export const i19OrderStatus = {
   open: 'Open order',
   closed: 'Finalized order',
