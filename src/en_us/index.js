@@ -639,7 +639,7 @@ export const i19CommodityType = {
   digital: 'Digital'
 }
 
-export const i19Condition = {
+export const i19ProductCondition = {
   new: 'New',
   refurbished: 'Refurbished',
   used: 'Used',
@@ -724,30 +724,6 @@ export const i19InscriptionType = {
   municipal: 'Municipal'
 }
 
-export const i19MeasurementUnit = {
-  oz: 'Oz',
-  lb: 'Lb',
-  mg: 'Mg',
-  g: 'g',
-  kg: 'Kg',
-  floz: 'Floxz',
-  pt: 'Pt',
-  qt: 'Qt',
-  gal: 'Gal',
-  ml: 'Ml',
-  cl: 'Cl',
-  l: 'L',
-  cbm: 'Cbm',
-  in: 'In',
-  ft: 'Ft',
-  yd: 'Yd',
-  cm: 'Cm',
-  m: 'M',
-  sqft: 'Sqft',
-  sqm: 'Sqm',
-  ct: 'Ct'
-}
-
 export const i19Modules = {
   page_loaded: 'Page loaded',
   term_searched: 'Term searched',
@@ -806,9 +782,9 @@ export const i19ShippingLinesStatus = {
 }
 
 export const i19StateRegister = {
-  invited: 'invited',
-  registered: 'registered',
-  declined: 'declined'
+  invited: 'Invited',
+  registered: 'Registered',
+  declined: 'Declined'
 }
 
 export const i19TransactionsType = {
@@ -816,20 +792,13 @@ export const i19TransactionsType = {
   recurrence: 'Recurrence'
 }
 
-export const i19TriggersAction = {
+export const i19ApiActions = {
   create: 'Create',
   change: 'Change',
   delete: 'Delete'
 }
 
-export const i19TriggersMethods = {
-  post: 'POST',
-  patch: 'PATCH',
-  put: 'PUT',
-  delete: 'DELETE'
-}
-
-export const i19TriggersResource = {
+export const i19StoreApiResources = {
   authentications: 'Authentications',
   products: 'Products',
   categories: 'Categories',
@@ -839,13 +808,8 @@ export const i19TriggersResource = {
   customers: 'Customers',
   carts: 'Carts',
   orders: 'Orders',
-  applications: 'Applications'
-}
-
-export const i19WebhooksMethods = {
-  get: 'GET',
-  post: 'POST',
-  patch: 'PATCH',
-  put: 'PUT',
-  delete: 'DELETE'
+  applications: 'Applications',
+  stores: 'Stores',
+  procedures: 'Procedures',
+  triggers: 'Triggers'
 }

@@ -639,7 +639,7 @@ export const i19CommodityType = {
   digital: 'Digital'
 }
 
-export const i19Condition = {
+export const i19ProductCondition = {
   new: 'Novo',
   refurbished: 'Recondicionado',
   used: 'Usado',
@@ -724,30 +724,6 @@ export const i19InscriptionType = {
   municipal: 'Municipal'
 }
 
-export const i19MeasurementUnit = {
-  oz: 'Oz',
-  lb: 'Lb',
-  mg: 'Mg',
-  g: 'g',
-  kg: 'Kg',
-  floz: 'Floxz',
-  pt: 'Pt',
-  qt: 'Qt',
-  gal: 'Gal',
-  ml: 'Ml',
-  cl: 'Cl',
-  l: 'L',
-  cbm: 'Cbm',
-  in: 'In',
-  ft: 'Ft',
-  yd: 'Yd',
-  cm: 'Cm',
-  m: 'M',
-  sqft: 'Sqft',
-  sqm: 'Sqm',
-  ct: 'Ct'
-}
-
 export const i19Modules = {
   page_loaded: 'Página carregada',
   term_searched: 'Termo procurado',
@@ -816,20 +792,13 @@ export const i19TransactionsType = {
   recurrence: 'Assinatura'
 }
 
-export const i19TriggersAction = {
+export const i19ApiActions = {
   create: 'Criar',
   change: 'Alterar',
   delete: 'Deletar'
 }
 
-export const i19TriggersMethods = {
-  post: 'POST',
-  patch: 'PATCH',
-  put: 'PUT',
-  delete: 'DELETE'
-}
-
-export const i19TriggersResource = {
+export const i19StoreApiResources = {
   authentications: 'Autenticações',
   products: 'Produtos',
   categories: 'Categorias',
@@ -839,13 +808,8 @@ export const i19TriggersResource = {
   customers: 'Clientes',
   carts: 'Carrinhos',
   orders: 'Pedidos',
-  applications: 'Aplicações'
-}
-
-export const i19WebhooksMethods = {
-  get: 'GET',
-  post: 'POST',
-  patch: 'PATCH',
-  put: 'PUT',
-  delete: 'DELETE'
+  applications: 'Aplicações',
+  stores: 'Lojas',
+  procedures: 'Procedimentos',
+  triggers: 'Triggers'
 }
