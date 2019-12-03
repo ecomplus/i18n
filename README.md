@@ -100,8 +100,10 @@ console.log(`${i18n(i19hello)} ${i18n(i19visitor)}`)
 4. String variables must be _camelCased_ (eg.: `i19helloWorld`);
 5. Object (enums) variables must be _PascalCased_ (eg.: `i19OrderStatus`);
 6. **All language options must have same variables**;
+7. For long messages: variable name should be suffixed with `Msg`;
+8. For questions: variable name should be suffixed with `Qn`;
 
 ### Code style
 
-7. Exported constants must be alphabetically ordered;
-8. Additional line break before objects (not for strings);
+9. Exported constants must be alphabetically ordered;
+10. Additional line break before objects (not for strings);
