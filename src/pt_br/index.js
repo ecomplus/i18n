@@ -675,8 +675,14 @@ export const i19triggersMsg = 'Lista de eventos que chamam este procedimento'
 export const i19tryAgain = 'Tente novamente'
 export const i19type = 'Tipo'
 export const i19unable = 'Não disponível'
+<<<<<<< HEAD
 export const i19unableToInstall = 'Não foi possível instalar o aplicativo.'
 export const i19unableToUninstallApp = 'Não foi possível desinstalar o aplicativo.'
+=======
+export const i19unableToInstallAppMsg = 'Não foi possível instalar o aplicativo.'
+export const i19unableToUninstallAppMsg = 'Não foi possível desinstalar o aplicativo.'
+export const i19unableToInstallAppMsg = 'Não foi possível instalar o aplicativo.'
+>>>>>>> 267490e5430cf454e57b655ba829e2a99d94dc0a
 export const i19unavailable = 'Indisponível'
 export const i19uninstall = 'Desinstalar'
 export const i19uninstallingApp = 'Desinstalando aplicativo'

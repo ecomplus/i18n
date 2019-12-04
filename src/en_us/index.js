@@ -675,8 +675,14 @@ export const i19triggersMsg = 'List of events that call this procedure'
 export const i19tryAgain = 'Try again'
 export const i19type = 'Type'
 export const i19unable = 'Unable'
+<<<<<<< HEAD
 export const i19unableToInstallApp = 'Unable to install app.'
 export const i19unableToUninstallApp = 'Unable to uninstall app.'
+=======
+export const i19unableToInstallAppMsg = 'Unable to install app.'
+export const i19unableToUninstallAppMsg = 'Unable to uninstall app.'
+export const i19unableToInstallAppMsg = 'Unable to install app'
+>>>>>>> 267490e5430cf454e57b655ba829e2a99d94dc0a
 export const i19unavailable = 'Unavailable'
 export const i19uninstall = 'Uninstall'
 export const i19uninstallingApp = 'Uninstalling app'
