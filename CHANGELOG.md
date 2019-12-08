@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ecomclub/i18n/compare/v1.2.0...v1.3.0) (2019-12-08)
+
+
+### Features
+
+* **words:** new words from market ([#14](https://github.com/ecomclub/i18n/issues/14)) ([b71ed17](https://github.com/ecomclub/i18n/commit/b71ed178dcf5cfbbfe15bcd4906e7eca4f0fcc72))
+* **words:** some more discount coupon related words/message ([4aa0f15](https://github.com/ecomclub/i18n/commit/4aa0f15e53b058d73a8fbd7c4bbbadfd34ffaac4))
+
 ## [1.2.0](https://github.com/ecomclub/i18n/compare/v1.1.1...v1.2.0) (2019-12-03)
 
 
