@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/ecomclub/i18n/compare/v1.3.0...v1.3.1) (2019-12-08)
+
+
+### Bug Fixes
+
+* **words:** fix 'recipient' pt_br translation ([674a8de](https://github.com/ecomclub/i18n/commit/674a8de5b80e7f0b807fadbd6f4b34cf575ce2a1))
+* **words:** fix 'shippingAddress' pt_br translation ([1f69795](https://github.com/ecomclub/i18n/commit/1f69795c18b2a452e53fb778d80cc95e610a154f))
+
+## [1.3.0](https://github.com/ecomclub/i18n/compare/v1.2.0...v1.3.0) (2019-12-08)
+
+
+### Features
+
+* **words:** new words from market ([#14](https://github.com/ecomclub/i18n/issues/14)) ([b71ed17](https://github.com/ecomclub/i18n/commit/b71ed178dcf5cfbbfe15bcd4906e7eca4f0fcc72))
+* **words:** some more discount coupon related words/message ([4aa0f15](https://github.com/ecomclub/i18n/commit/4aa0f15e53b058d73a8fbd7c4bbbadfd34ffaac4))
+
 ## [1.2.0](https://github.com/ecomclub/i18n/compare/v1.1.1...v1.2.0) (2019-12-03)
 
 
