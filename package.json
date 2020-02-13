@@ -33,11 +33,11 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "babel-loader": "^8.0.6",
-    "husky": "^3.1.0",
+    "husky": "^4.2.3",
     "standard": "^14.3.1",
     "standard-version": "^7.1.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "husky": {
     "hooks": {
