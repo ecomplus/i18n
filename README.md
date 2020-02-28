@@ -1,11 +1,10 @@
 # i18n
 
-[![npm version](https://img.shields.io/npm/v/@ecomplus/i18n.svg)](https://www.npmjs.org/@ecomplus/i18n)
-[![license mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@ecomplus/i18n.svg)](https://www.npmjs.org/@ecomplus/i18n) [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 :brazil: :us:
 
-Tree shakable dictionary for e-commerce JS apps
+Tree shakable dictionary focused on eCommerce JS applications.
 
 > `i18n` ~ `i19` ~ Internationalization
 
@@ -25,8 +24,7 @@ console.log(`${i19hello.pt_br} ${i19visitor.pt_br}`)
 // Olá Visitante
 ```
 
-We recommend using it with
-[`ecomUtils.i18n`](https://developers.e-com.plus/ecomplus-utils/ecomUtils.html#.i18n):
+We recommend using it with [`ecomUtils.i18n`](https://developers.e-com.plus/utils/ecomUtils.html#.i18n):
 
 ```js
 import { i18n } from '@ecomplus/utils'
@@ -57,9 +55,7 @@ console.log(`${dictionary.i19hello.en_us} ${dictionary.i19visitor.en_us}`)
 
 ### Webpack alias
 
-You can import only one language variation using
-[Webpack `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias)
-as following:
+You can import only one language variation using [Webpack `resolve.alias`](https://webpack.js.org/configuration/resolve/#resolvealias) as following:
 
 ```js
 // webpack.config.js
@@ -81,9 +77,7 @@ console.log(`${i19hello} ${i19visitor}`)
 // Hello Visitor
 ```
 
-You can still use
-[`ecomUtils.i18n`](https://developers.e-com.plus/ecomplus-utils/ecomUtils.html#.i18n)
-the same way:
+You can still use [`ecomUtils.i18n`](https://developers.e-com.plus/ecomplus-utils/ecomUtils.html#.i18n) the same way:
 
 ```js
 import { i18n } from '@ecomplus/utils'
