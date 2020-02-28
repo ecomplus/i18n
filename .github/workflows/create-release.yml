@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: @ecomplus/i18n@${{ steps.get_semver.outputs.num }}
+          release_name: "@ecomplus/i18n@${{ steps.get_semver.outputs.num }}"
           body: |
             [Change Log](https://github.com/ecomplus/i18n/blob/${{ github.ref }}/CHANGELOG.md)
           draft: false
