@@ -1,6 +1,6 @@
 # i18n
 
-[![npm version](https://img.shields.io/npm/v/@ecomplus/i18n.svg)](https://www.npmjs.org/@ecomplus/i18n) [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Publish](https://github.com/ecomplus/i18n/workflows/Publish/badge.svg)](https://github.com/ecomplus/i18n/actions?workflow=Publish) [![npm version](https://img.shields.io/npm/v/@ecomplus/i18n.svg)](https://www.npmjs.org/@ecomplus/i18n) [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 :brazil: :us:
 
