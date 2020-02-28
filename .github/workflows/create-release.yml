@@ -18,7 +18,7 @@ jobs:
         id: get_semver
         env:
           TAG_NAME: ${{ github.ref }}
-        run: echo "::set-output name=num::${TAG_NAME:1}"
+        run: echo "::set-output name=num::${TAG_NAME:11}"
 
       - name: Create release on GitHub API
         id: create_release
@@ -29,6 +29,6 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: "@${{ github.repository }}@${{ steps.get_semver.outputs.num }}"
           body: |
-            [Change Log](https://github.com/${{ github.repository }}/blob/${{ github.ref }}/CHANGELOG.md)
+            :scroll: [Changelog](https://github.com/${{ github.repository }}/blob/v${{ steps.get_semver.outputs.num }}/CHANGELOG.md)
           draft: false
           prerelease: false
