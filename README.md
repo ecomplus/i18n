@@ -63,7 +63,7 @@ module.exports = {
   //...
   resolve: {
     alias: {
-      '@ecomplus/i18n$': `@ecomplus/i18n/dist/i18n.${lang}.min.js`
+      '@ecomplus/i18n$': `@ecomplus/i18n/src/${lang}/`
     }
   }
 }
