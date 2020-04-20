@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/ecomplus/i18n/compare/v1.7.0...v1.7.1) (2020-04-20)
+
+
+### Bug Fixes
+
+* **pt-br:** fix i19inStock to 'Em estoque' ([a37fc27](https://github.com/ecomplus/i18n/commit/a37fc27be16cb03b3c55bf24a98f531c5e22c099))
+* **pt-br:** fix i19only to 'Apenas' ([45a194c](https://github.com/ecomplus/i18n/commit/45a194c70bcfa709c6191c7367b7e0128f9d21f2))
+
 ## [1.7.0](https://github.com/ecomplus/i18n/compare/v1.6.0...v1.7.0) (2020-03-26)
 
 
