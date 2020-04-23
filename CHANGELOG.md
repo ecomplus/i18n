@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/ecomplus/i18n/compare/v1.7.1...v1.8.0) (2020-04-23)
+
+
+### Features
+
+* **words:** add i19or, i19asOf, i19with ([c940af6](https://github.com/ecomplus/i18n/commit/c940af678b6259d2a0a7aea86a0645e2c12ae643))
+
 ### [1.7.1](https://github.com/ecomplus/i18n/compare/v1.7.0...v1.7.1) (2020-04-20)
 
 
