@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.10.1](https://github.com/ecomplus/i18n/compare/v1.10.0...v1.10.1) (2020-05-16)
+
+
+### Bug Fixes
+
+* **words:** fix 'i19ofDiscount' and 'i19onFreight' ptBR ([4368df5](https://github.com/ecomplus/i18n/commit/4368df5e96a7f825edd0bd0f18c0e5b8ce151cea))
+
 ## [1.10.0](https://github.com/ecomplus/i18n/compare/v1.9.0...v1.10.0) (2020-05-15)
 
 
