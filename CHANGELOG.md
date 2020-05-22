@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/ecomplus/i18n/compare/v1.10.1...v1.11.0) (2020-05-22)
+
+
+### Features
+
+* **words:** fix i19filterResults (pt), add i19editFilters ([c1f7373](https://github.com/ecomplus/i18n/commit/c1f73736549a52dea48d35890298a6b362c7ee74))
+
 ### [1.10.1](https://github.com/ecomplus/i18n/compare/v1.10.0...v1.10.1) (2020-05-16)
 
 
