@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.1](https://github.com/ecomplus/i18n/compare/v1.11.0...v1.11.1) (2020-05-28)
+
+
+### Bug Fixes
+
+* **pt-br:** fix i19on ptBR translation ([30aa8a7](https://github.com/ecomplus/i18n/commit/30aa8a73e067e9f5c7b419e981fcec2b8fc8e999))
+
 ## [1.11.0](https://github.com/ecomplus/i18n/compare/v1.10.1...v1.11.0) (2020-05-22)
 
 
