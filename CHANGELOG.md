@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/ecomplus/i18n/compare/v1.11.1...v1.12.0) (2020-06-09)
+
+
+### Features
+
+* **words:** new words from [#53](https://github.com/ecomplus/i18n/issues/53) ([daf1f39](https://github.com/ecomplus/i18n/commit/daf1f39e4ab55dc68b27d03626846bf07cee9829))
+* **words:** password reset related ([#55](https://github.com/ecomplus/i18n/issues/55)) ([eea991c](https://github.com/ecomplus/i18n/commit/eea991ceb631934a7e8f32af83637c14b4d6f051))
+
 ### [1.11.1](https://github.com/ecomplus/i18n/compare/v1.11.0...v1.11.1) (2020-05-28)
 
 
