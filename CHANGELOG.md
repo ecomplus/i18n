@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/ecomplus/i18n/compare/v1.14.0...v1.15.0) (2020-08-27)
+
+
+### Features
+
+* **words:** add 'savedWithSuccess' en_us ([#76](https://github.com/ecomplus/i18n/issues/76)) ([959f862](https://github.com/ecomplus/i18n/commit/959f862af7203a23414b1c688b7f2f700039e31d))
+* **words:** add 'savedWithSuccess' pt_br ([#75](https://github.com/ecomplus/i18n/issues/75)) ([68f993a](https://github.com/ecomplus/i18n/commit/68f993a4387a3fa4fe73c97a1e815e799760d3ca))
+* **words:** new words for product's list ([#72](https://github.com/ecomplus/i18n/issues/72)) ([3895621](https://github.com/ecomplus/i18n/commit/389562163cabffcbd9866897de5e0a95e749b5b7))
+* **words:** new words for product's list (en_us) ([#73](https://github.com/ecomplus/i18n/issues/73)) ([43c0307](https://github.com/ecomplus/i18n/commit/43c030774fba53f4c07ce0cef39dff4cc560e080))
+* **words:** new words from [#69](https://github.com/ecomplus/i18n/issues/69) ([46766de](https://github.com/ecomplus/i18n/commit/46766def86d7ad242b4888c0b074a17e5b9daaec))
+
 ## [1.14.0](https://github.com/ecomplus/i18n/compare/v1.13.0...v1.14.0) (2020-07-15)
 
 
