@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.1](https://github.com/ecomplus/i18n/compare/v1.16.0...v1.16.1) (2020-09-13)
+
+
+### Bug Fixes
+
+* **object:** fix i19InscriptionType enums ([c1d4b74](https://github.com/ecomplus/i18n/commit/c1d4b7489d9fad3f2cd9046bc25bc52530565f41))
+
 ## [1.16.0](https://github.com/ecomplus/i18n/compare/v1.15.0...v1.16.0) (2020-09-11)
 
 
