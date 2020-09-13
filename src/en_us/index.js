@@ -969,8 +969,8 @@ export const i19Gender = {
 }
 
 export const i19InscriptionType = {
-  state: 'State',
-  municipal: 'Municipal'
+  State: 'State',
+  Municipal: 'Municipal'
 }
 
 export const i19OrderStatus = {
