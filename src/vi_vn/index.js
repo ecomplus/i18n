@@ -1,4 +1,4 @@
-export const i19about = 'About'
+export const i19about = 'Giới thiệu'
 export const i19aboutCvvMsg = '3 or 4 digits, usually on the back of the card (up front on AMEX cards)'
 export const i19acceptAttachedFile = 'Accept attached file'
 export const i19acceptCustomOptionByCustomer = 'Accept custom option by customer'
