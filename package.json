@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/ecomplus/i18n#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "babel-loader": "^8.1.0",
-    "husky": "^4.3.0",
-    "standard": "^16.0.1",
+    "babel-loader": "^8.2.2",
+    "husky": "^4.3.6",
+    "standard": "^16.0.3",
     "standard-version": "^9.0.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
