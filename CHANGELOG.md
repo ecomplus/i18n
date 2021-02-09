@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/ecomplus/i18n/compare/v1.18.0...v1.20.0) (2021-02-09)
+
+
+### Features
+
+* **words:** new words for admin marketplace ([19b46aa](https://github.com/ecomplus/i18n/commit/19b46aa253bb9522c83b2570432275f117fbcb27)), closes [#138](https://github.com/ecomplus/i18n/issues/138)
+* **words:** new words from [#96](https://github.com/ecomplus/i18n/issues/96) ([95abea4](https://github.com/ecomplus/i18n/commit/95abea4a5495552701795b5db9bccc03c18f3722))
+
 ## [1.19.0](https://github.com/ecomplus/i18n/compare/v1.18.0...v1.19.0) (2021-02-09)
 
 
