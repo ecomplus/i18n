@@ -1,6 +1,6 @@
 {
   "name": "@ecomplus/i18n",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "Tree shakable dictionary for e-commerce JS apps",
   "main": "dist/i18n.min.js",
   "module": "src/index.js",
