@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](https://github.com/ecomplus/i18n/compare/v1.22.0...v1.23.0) (2021-08-04)
+
+
+### Features
+
+* **words:** new words from [#119](https://github.com/ecomplus/i18n/issues/119) ([41ffda6](https://github.com/ecomplus/i18n/commit/41ffda6bf4bb17becfb9c3e6fd123a43391d4dfa))
+
+
+### Bug Fixes
+
+* **pt-br:** typo fix `i19loyaltyPoints` and `i19loyaltyPointsName` ([#127](https://github.com/ecomplus/i18n/issues/127)) ([9e39e65](https://github.com/ecomplus/i18n/commit/9e39e65711d350221547a360398d00e7308d0e13))
+
 ## [1.22.0](https://github.com/ecomplus/i18n/compare/v1.21.0...v1.22.0) (2021-06-04)
 
 
