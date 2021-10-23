@@ -7,7 +7,7 @@
   "sideEffects": false,
   "scripts": {
     "generate": "node ./scripts/generate-named-exports",
-    "build": "npm run generate && NODE_ENV=production webpack",
+    "build": "npm run generate && cross-env NODE_ENV=production webpack",
     "release": "rm -rf ./dist; npm run build && standard-version"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
     "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
     "husky": "^7.0.4",
     "standard": "^16.0.4",
     "standard-version": "^9.3.2",
