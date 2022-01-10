@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.26.0](https://github.com/ecomplus/i18n/compare/v1.25.0...v1.26.0) (2022-01-10)
+
+
+### Features
+
+* **words:** add new `i19sizeGuide` ([fae84f3](https://github.com/ecomplus/i18n/commit/fae84f375de4351974cb23a3934a82243661c444))
+
 ## [1.25.0](https://github.com/ecomplus/i18n/compare/v1.24.0...v1.25.0) (2022-01-03)
 
 
