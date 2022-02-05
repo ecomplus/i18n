@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.27.0](https://github.com/ecomplus/i18n/compare/v1.26.0...v1.27.0) (2022-02-05)
+
+
+### Features
+
+* **words:** new words from [#150](https://github.com/ecomplus/i18n/issues/150) ([ac7fa04](https://github.com/ecomplus/i18n/commit/ac7fa046777ef9fdfb4ca0945df43d85ae6e040e))
+
 ## [1.26.0](https://github.com/ecomplus/i18n/compare/v1.25.0...v1.26.0) (2022-01-10)
 
 
