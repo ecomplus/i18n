@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.30.0](https://github.com/ecomplus/i18n/compare/v1.29.0...v1.30.0) (2022-08-05)
+
+
+### Features
+
+* **words:** new words for recurring payments ([#177](https://github.com/ecomplus/i18n/issues/177)) ([25ce0f8](https://github.com/ecomplus/i18n/commit/25ce0f8be9b7bfba403a1e3e6465524cb18fe0c9))
+* **words:** new words from [#170](https://github.com/ecomplus/i18n/issues/170) ([c12f7fe](https://github.com/ecomplus/i18n/commit/c12f7fecfa66612381b08a7af4437512f31d7148))
+
 ## [1.29.0](https://github.com/ecomplus/i18n/compare/v1.28.0...v1.29.0) (2022-03-25)
 
 
