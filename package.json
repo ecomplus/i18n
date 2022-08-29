@@ -28,10 +28,10 @@
   },
   "homepage": "https://github.com/ecomplus/i18n#readme",
   "devDependencies": {
-    "@babel/core": "^7.18.10",
+    "@babel/core": "^7.18.13",
     "@babel/preset-env": "^7.18.10",
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
+    "@commitlint/cli": "^17.1.1",
+    "@commitlint/config-conventional": "^17.1.0",
     "babel-loader": "^8.2.5",
     "cross-env": "^7.0.3",
     "husky": "^8.0.1",
