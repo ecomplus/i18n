@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.32.1](https://github.com/ecomplus/i18n/compare/v1.32.0...v1.32.1) (2022-09-27)
+
+
+### Bug Fixes
+
+* Add named export for each lang on package.json ([656353f](https://github.com/ecomplus/i18n/commit/656353fa200be62da3637c8171ba80936fbb298c))
+
 ## [1.32.0](https://github.com/ecomplus/i18n/compare/v1.31.0...v1.32.0) (2022-09-27)
 
 
