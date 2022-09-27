@@ -4,11 +4,6 @@
   "description": "Tree shakable dictionary for e-commerce JS apps",
   "main": "dist/i18n.min.js",
   "module": "src/index.js",
-  "exports": {
-    ".": "./src/index.js",
-    "./pt-br": "./src/pt_br/index.js",
-    "./en-us": "./src/en_us/index.js"
-  },
   "sideEffects": false,
   "scripts": {
     "generate": "node ./scripts/generate-named-exports",
