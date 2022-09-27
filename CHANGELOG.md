@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.32.0](https://github.com/ecomplus/i18n/compare/v1.31.0...v1.32.0) (2022-09-27)
+
+
+### Features
+
+* **words:** new `i19myAccountAndOrders` ([0675fb8](https://github.com/ecomplus/i18n/commit/0675fb81df47b7bf43f0438c87904022d240bd12))
+
 ## [1.31.0](https://github.com/ecomplus/i18n/compare/v1.30.0...v1.31.0) (2022-08-11)
 
 
