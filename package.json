@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.19.4",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "babel-loader": "^8.2.5",
+    "babel-loader": "^9.0.1",
     "cross-env": "^7.0.3",
     "husky": "^8.0.1",
     "standard": "^17.0.0",
