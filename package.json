@@ -32,10 +32,10 @@
     "@babel/preset-env": "^7.25.4",
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
-    "babel-loader": "^8.3.0",
+    "babel-loader": "^8.4.1",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
-    "standard": "^17.1.0",
+    "standard": "^17.1.2",
     "commit-and-tag-version": "^9.6.0",
     "webpack": "^4.47.0",
     "webpack-cli": "^3.3.12"
