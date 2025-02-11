@@ -37,7 +37,7 @@
     "husky": "^8.0.3",
     "standard": "^17.1.2",
     "commit-and-tag-version": "^9.6.0",
-    "webpack": "^4.47.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^3.3.12"
   },
   "publishConfig": {
