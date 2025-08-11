@@ -33,7 +33,7 @@
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
     "babel-loader": "^8.4.1",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "husky": "^8.0.3",
     "standard": "^17.1.2",
     "commit-and-tag-version": "^9.6.0",
